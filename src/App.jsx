@@ -13,6 +13,9 @@ import { Footer } from "./components/Footer/Footer";
 function App() {
   return (
     <div className={styles.App}>
+      <div className={styles.devNote}>
+        Note: This website is in development. Many features are yet to come.
+      </div>
       <Navbar />
       <Intro />
       <About />

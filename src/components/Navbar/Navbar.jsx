@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [popupOpen, setPopupOpen] = useState(false);
+  const popupRef = useRef(null);
 
   const handleResumeClick = () => {
     setPopupOpen(true);
@@ -17,6 +18,19 @@ export const Navbar = () => {
   const handleViewOrDownload = () => {
     setPopupOpen(false);
   };
+
+  const handleClickOutside = (event) => {
+    if (popupRef.current && !popupRef.current.contains(event.target)) {
+      setPopupOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <nav className={styles.navbar}>
@@ -62,28 +76,31 @@ export const Navbar = () => {
       </div>
 
       {popupOpen && (
-        <div className={styles.popup}>
-          <button className={styles.closeBtn} onClick={handleClosePopup}>
-            X
-          </button>
-          <a
-            href="/public/Resume.pdf" 
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.button}
-            onClick={handleViewOrDownload}
-          >
-            View
-          </a>
-          <a
-            href="public/Resume.pdf" 
-            download
-            className={styles.button}
-            onClick={handleViewOrDownload}
-          >
-            Download
-          </a>
-        </div>
+        <>
+          <div className={styles.overlay} onClick={handleClosePopup}></div>
+          <div ref={popupRef} className={styles.popup}>
+            <button className={styles.closeBtn} onClick={handleClosePopup}>
+              X
+            </button>
+            <a
+              href="/public/Resume.pdf" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.button}
+              onClick={handleViewOrDownload}
+            >
+              View
+            </a>
+            <a
+              href="public/Resume.pdf" 
+              download
+              className={styles.button}
+              onClick={handleViewOrDownload}
+            >
+              Download
+            </a>
+          </div>
+        </>
       )}
     </nav>
   );
