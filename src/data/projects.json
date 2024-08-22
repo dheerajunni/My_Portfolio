@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Real-time Anomaly Detection System for Financial Transactions",
+    "imageSrc": "projects/project.png",
+    "description": "Led the creation of an anomaly detection system for financial transactions, utilizing Azure Databricks, ADLS, PySpark to process the data, resulting in enhanced fraud detection accuracy.",
+    "skills": ["Azure Databricks", "PySpark", "PowerBI","Data Analysis"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Data Modeling and Management for Industrial Manufacturer",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a relational database using MySQL & Microsoft SQL Server for a Beer manufacturer, implementing Data Modelling techniques like Star schema, Snowflake Schema and query optimization techniques that improved the performance by 30%",
+    "skills": ["SSIS", "SQL Queries", "Snowflake", "Data Modelling","ERD"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Sales Data Analysis and Reporting",
+    "imageSrc": "projects/project.png",
+    "description": "Conducted analysis on customer sales behavior data to pinpoint trends and pull out opportunities for a retail client, leveraging Power BI to craft interactive dashboards that offer stakeholders real-time insights into sales performance, while employing DAX expressions for data manipulation and cleaning",
+    "skills": ["PowerBI", "DAX", "Data Analysis","Data Cleaning"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Personal Portfolio Website",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a fully blown portfolio dynamic and interactive website which allows recruiters,employers,stakeholders to view and interact with my experiences to know me better",
+    "skills": ["Reactjs", "Javascript", "HTML & CSS","JSON","Visual Studio Code","UI/UX"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Project",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a fully blown portfolio dynamic and interactive website which allows recruiters,employers,stakeholders to view and interact with my experiences to know me better",
+    "skills": ["Reactjs", "Javascript", "HTML & CSS","JSON","Visual Studio Code","UI/UX"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

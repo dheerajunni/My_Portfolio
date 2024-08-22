@@ -1,0 +1,72 @@
+[
+  {
+    "role": "Data Analyst",
+    "organisation": "State of New Mexico",
+    "startDate": "July, 2024",
+    "endDate": "Present",
+    "experiences": ["Developing dashboards to monitor and analyze workers' compensation claims data using Power BI", 
+    "providing actionable insights to the internal teams and external stakeholders such as insurance companies and healthcare providers",
+    "Implementing data aggregation and transformation processes using SQL to support the agency's data-driven decision-making,ensuring accurate and timely information is available for trend analysis and reporting",
+    "Employed SQL for complex queries and data validation,ensuring data integrity across various datasets used in the agency analytical processes",
+    "Develop and maintain ETL pipelines using Azure Data Factory, ensuring efficient data integration from multiple sources, including insurance records ,medical records,claims databases",
+    "Collaborated with data stewards to define and establish subject-specific data marts focused on claims processing and insurance payouts, enhancing the consistency and reliability of analytics across the department",
+    "Developed and implemented specialized data marts using Azure SQL DB to centralize workers' compensation claims, financial payouts, and case management data, streamlining reporting and enhancing the accuracy of analytics for injury types, claim durations, settlement amounts, and legal case compliance",
+    "Collaborating with the application development team to gather customer traffic data from different agency websites using google analytics"],
+    "imageSrc": "history/NM.png"
+  },
+  {
+    "role": "Data Analyst/BI Developer",
+    "organisation": "Colorado State University",
+    "startDate": "Aug, 2022",
+    "endDate": "Dec, 2023",
+    "experiences": ["Developed Power BI dashboards to track and visualize key university metrics, including enrollment trends, financial performance, and resource allocation, leading to a significant increase in data-driven decision-making",
+    "Implemented ETL processes using Azure Data Factory and SQL Server to automate the integration of data from various campus systems, ensuring seamless and consistent data flow",
+    "Created data marts for academic performance and financial analytics, focusing on department-level performance metrics and budget allocation, enabling standardized and accessible reporting",
+    "Conducted statistical analysis using R to uncover patterns in student performance data, driving targeted interventions and curriculum improvements",
+    "Optimized complex SQL queries for faster data retrieval and report generation, cutting down processing time and enhancing the efficiency of regular reporting cycles"],
+    "imageSrc": "history/CSU.png"
+  },
+  {
+    "role": "Data Analyst Intern",
+    "organisation": "JBS USA",
+    "startDate": "May, 2023",
+    "endDate": "July, 2023",
+    "experiences": [
+      "Developed and optimized data visualization dashboards using Power BI, enhancing visibility into supply chain metrics, including order fulfillment rates and inventory levels, improving decision-making processes",
+      "Utilized SQL for extracting and transforming data from multiple sources into actionable insights, streamlining the reporting process for the operations team",
+      "Automated the integration of EDI transactions (850, 855, 810, 875, and 856) into the company’s data warehouse, ensuring seamless data flow and reducing manual intervention",
+      "Collaborated with the SAP team to resolve IDoc issues, enhancing the accuracy and reliability of financial and operational reports",
+      "Documented processes and workflows in Azure Wiki, creating a centralized knowledge repository that improved team collaboration and onboarding efficiency"
+    ],
+    "imageSrc": "history/JBS.png"
+  },
+  {
+    "role": "Data Analyst/Engineer",
+    "organisation": "Accenture",
+    "startDate": "June, 2021",
+    "endDate": "August, 2022",
+    "experiences": [
+      "Designed and implemented an ETL pipeline using Apache Spark and Python to process and integrate healthcare data from over 20 wholesalers, ensuring high data quality and consistency",
+      "Utilized Python for data transformation, handling diverse file formats such as CSV and TXT, and managed master data with SQL, improving data accuracy and accessibility",
+      "Applied performance optimization techniques to SQL queries and leveraged Spark's in-memory processing capabilities, reducing data processing times from 30 minutes to 10 minutes for datasets ranging between 50 GB and 60 GB",
+      "Developed interactive dashboards and reports in Power BI to visualize key healthcare metrics and trends, enhancing operational decision-making and providing actionable insights to stakeholders",
+      "Collaborated with cross-functional teams to ensure seamless integration of data sources and alignment with business intelligence goals, leading to a 25% improvement in analytical efficiency."
+    ],
+    "imageSrc": "history/Accenture.png"
+  },
+  {
+    "role": "Business Intelligence Developer",
+    "organisation": "Accenture",
+    "startDate": "May, 2019",
+    "endDate": "June, 2021",
+    "experiences": [
+      "Designed and implemented a series of interactive dashboards using Tableau to track and analyze sales and market unit performance, resulting in a 30% improvement in decision-making speed and accuracy",
+      "Developed complex SQL queries and stored procedures in SQL Server to support detailed financial and operational reporting, enabling more granular insights into business metrics",
+      "Created a Power BI solution to visualize key performance indicators (KPIs) for marketing campaigns, which provided actionable insights and improved campaign analysis",
+      "Developed a RESTful API integration to connect Salesforce with internal SQL Server databases, automating data synchronization and reducing manual data entry by 40%",
+      "Built and deployed automated data pipelines using SQL Server Integration Services (SSIS) to extract, transform, and load (ETL) data from various sources into a centralized data warehouse",
+      "Implemented data validation and cleansing processes to ensure high data quality and integrity in BI reports, supporting accurate business analysis and decision-making.rovement in analytical efficiency"
+    ],
+    "imageSrc": "history/Accenture.png"
+  }
+]

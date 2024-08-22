@@ -1,0 +1,67 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.sectionTitle {
+  font-size: 40px; /* Larger font size for the section title */
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.certificates {
+  display: flex;
+  /* Remove flex-wrap to keep all cards in a single row */
+  gap: 30px; /* Spacing between cards */
+  overflow-x: auto; /* Allows horizontal scrolling if needed */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 18px 24px;
+  max-width: 345px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 400px; /* Adjust the height as needed */
+  position: relative; /* For positioning the button at the bottom */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: auto; /* Pushes the button to the bottom */
+}
+
+.button:hover {
+  background-color: var(--color-dark);
+  transform: scale(1.05);
+}
