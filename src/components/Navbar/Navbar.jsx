@@ -83,7 +83,7 @@ export const Navbar = () => {
               X
             </button>
             <a
-              href="/public/Resume.pdf" 
+              href="/Resume.pdf" 
               target="_blank"
               rel="noopener noreferrer"
               className={styles.button}
@@ -92,7 +92,7 @@ export const Navbar = () => {
               View
             </a>
             <a
-              href="public/Resume.pdf" 
+              href="/Resume.pdf" 
               download
               className={styles.button}
               onClick={handleViewOrDownload}
