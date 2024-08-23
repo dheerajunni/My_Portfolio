@@ -14,7 +14,7 @@ function App() {
   return (
     <div className={styles.App}>
       <div className={styles.devNote}>
-        Note: This website is in development. Many features are yet to come.
+        Note: This website is in development. Many features are yet to come.Use desktop view for better expereince
       </div>
       <Navbar />
       <Intro />
