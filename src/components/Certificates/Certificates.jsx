@@ -4,11 +4,11 @@ import styles from "./Certificates.module.css";
 const certifications = [
   {
     title: "Microsoft Certified PowerBI Data Analyst",
-    pdfLink: "assets/Certificates/PowerBI_certificate.pdf",
+    pdfLink: "/public/Certificates/CSU_BI.pdf",
   },
   {
     title: "Colorado State University Certified IT Project Manager",
-    pdfLink: "assets/Certificates/CSU_ITPM.pdf",
+    pdfLink: "publicCertificates/CSU_ITPM.pdf",
   },
   {
     title: "Microsoft Certified Azure Data Engineer",
@@ -16,15 +16,15 @@ const certifications = [
   },
   {
     title: "Colorado State University Certified BI Developer",
-    pdfLink: "assets/Certificates/CSU_BI.pdf",
+    pdfLink: "public/Certificates/CSU_BI.pdf",
   },
   {
     title: "Colorado State University Transcripts",
-    pdfLink: "assets/Certificates/Transcripts.pdf",
+    pdfLink: "public/Certificates/Transcripts.pdf",
   },
   {
     title: "Colorado State University Master's in Computer Information Systems",
-    pdfLink: "assets/Certificates/Degree.pdf",
+    pdfLink: "public/Certificates/Degree.pdf",
   },
 ];
 
