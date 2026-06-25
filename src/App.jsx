@@ -24,7 +24,7 @@ function App() {
           path="/*"
           element={
             <div className={styles.App}>
-
+<p> Welcome to my World</p>
               <Navbar />
               <Intro />
               <About />
