@@ -68,7 +68,7 @@ export const Navbar = () => {
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="#blogs">Blogs and Articles</a>
+            <a href="#/blogs">Blogs and Articles</a>
           </li>
           <li>
             <button onClick={handleResumeClick} className={styles.resumeBtn}>
