@@ -72,7 +72,7 @@ The suggested questions feature appears only on the first message, giving visito
 
 ## The Result
 
-The assistant is live at [dheerajpulijala.netlify.app](https://dheerajpulijala.netlify.app). Visitors can ask things like "what databases has Dheeraj worked with" or "tell me about his Azure experience" and get accurate, specific answers grounded in my actual background.
+The assistant is live at [dheerajpulijala.com](https://dheerajpulijala.com). Visitors can ask things like "what databases has Dheeraj worked with" or "tell me about his Azure experience" and get accurate, specific answers grounded in my actual background.
 
 Total cost to run: fractions of a cent per conversation using GPT-4o-mini at 300 max tokens per response.
 

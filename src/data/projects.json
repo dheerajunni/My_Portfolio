@@ -4,7 +4,7 @@
   "imageSrc": "projects/project.png",
   "description": "Designed and developed a fully responsive personal portfolio website from scratch using React and Vite, featuring modular component architecture, CSS modules for scoped styling, and a custom JSON-driven data layer that makes content updates seamless. Integrated an AI-powered chat assistant using OpenAI GPT-4o-mini routed through a Netlify serverless function — allowing visitors to interactively query my experience, skills, and projects in real time. Deployed on Netlify with continuous deployment from GitHub.",
   "skills": ["React", "Vite", "JavaScript", "CSS Modules", "HTML5", "OpenAI API", "Netlify Functions", "Netlify CI/CD", "GitHub"],
-  "demo": "https://dheerajpulijala.netlify.app",
+  "demo": "https://dheerajpulijala.com",
   "source": "https://github.com/dheerajunni/My_Portfolio"
 },
    {
@@ -12,7 +12,7 @@
   "imageSrc": "projects/project.png",
   "description": "Built and deployed an AI-powered chat assistant directly into this portfolio site. Recruiters and hiring managers can ask natural language questions about my experience, skills, and projects and get instant accurate answers. Built with React, OpenAI GPT-4o-mini, and a Netlify serverless function that proxies API calls securely — keeping the API key out of the browser. Fully live in production.",
   "skills": ["React", "OpenAI API", "Netlify Functions", "JavaScript", "Node.js", "REST API", "Prompt Engineering"],
-  "demo": "https://dheerajpulijala.netlify.app",
+  "demo": "https://dheerajpulijala.com",
   "source": "https://github.com/dheerajunni/My_Portfolio"
 },
   {

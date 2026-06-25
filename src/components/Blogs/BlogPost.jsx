@@ -210,7 +210,7 @@ export const BlogPost = () => {
             <button className={styles.backBtn} onClick={() => navigate("/blogs")}>
               Back to Articles
             </button>
-            <a href="https://dheerajpulijala.netlify.app" className={styles.portfolioLink}>
+            <a href="https://dheerajpulijala.com" className={styles.portfolioLink}>
               View Portfolio
             </a>
           </div>
