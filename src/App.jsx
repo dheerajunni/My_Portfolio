@@ -24,9 +24,7 @@ function App() {
           path="/*"
           element={
             <div className={styles.App}>
-              <p style={{ textAlign: "center", background: "#6c3de8", color: "white", padding: "8px", margin: 0, fontSize: "13px" }}>
-                Note: This website is in development. Many features are yet to come. Use desktop view for better experience.
-              </p>
+
               <Navbar />
               <Intro />
               <About />
