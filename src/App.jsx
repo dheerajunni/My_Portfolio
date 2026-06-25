@@ -1,3 +1,7 @@
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BlogList } from "./components/Blogs/BlogList";
+import { BlogPost } from "./components/Blogs/BlogPost";
+import { Navbar } from "./components/Navbar/Navbar";
 import React from "react";
 import styles from "./App.module.css";
 import { About } from "./components/About/About";
@@ -14,10 +18,15 @@ import Chat from "./components/Chat/Chat";
 
 function App() {
   return (
-    <div className={styles.App}>
-      <div className={styles.devNote}>
+    <Router>
+      <Routes>
+        <Route path="/blogs" element={<BlogList />} />
+        <Route path="/blogs/:id" element={<BlogPost />} />
+        <Route
+          path="/*"
+          element={
+            <div className={styles.App}>
         Note: This website is in development. Many features are yet to come.Use desktop view for better expereince
-      </div>
       <Navbar />
       <Intro />
       <About />
@@ -30,6 +39,10 @@ function App() {
       <Footer />
       <Chat />
     </div>
+          }
+          />
+          </Routes>
+          </Router>
   );
 }
 
