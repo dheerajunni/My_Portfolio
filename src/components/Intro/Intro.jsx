@@ -9,9 +9,7 @@ export const Intro = () => {
         <h1 className={styles.title}>Hi, I'm Dheeraj Pulijala</h1>
         <p className={styles.description}>
           Application Developer with 6+ years of experience building and maintaining production .NET systems for state government and enterprise environments. I specialize in ASP.NET Core, C#, SQL Server, and Azure — and I integrate AI capabilities into real applications using OpenAI and serverless architectures.
-          <br /><br />
           Currently serving as the primary developer for five production web systems at the State of New Mexico, independently owning the full software lifecycle from requirements through deployment. I bring the same ownership mindset to every system I build — whether it's a public-facing MVC application, a REST API, or an AI-powered portfolio assistant like the one on this site.
-          <br /><br />
           Open to Application Developer and Full Stack .NET roles in both state government and private sector. Open to relocation.
         </p>
         <a href="#contact" className={styles.contactBtn}>
