@@ -20,14 +20,14 @@ export const BlogList = () => {
   return (
     <div className={styles.page}>
       <nav className={styles.nav}>
-        <span className={styles.navBrand}>Dheeraj Pulijala — Writing</span>
+        <span className={styles.navBrand}>Dheeraj Pulijala — Blogs and Articles</span>
         <button className={styles.homeBtn} onClick={() => navigate("/")}>
           ← Portfolio
         </button>
       </nav>
 
       <div className={styles.hero}>
-        <h1 className={styles.title}>Writing</h1>
+        <h1 className={styles.title}>Blogs and Articles</h1>
         <p className={styles.subtitle}>
           Technical articles on .NET development, AI integration, and cloud architecture.
         </p>
