@@ -1,19 +1,17 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import { BlogList } from "./components/Blogs/BlogList";
-import { BlogPost } from "./components/Blogs/BlogPost";
-import { Navbar } from "./components/Navbar/Navbar";
 import React from "react";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import styles from "./App.module.css";
-import { About } from "./components/About/About";
-import { Contact } from "./components/Contact/Contact";
-import { Experience } from "./components/Experience/Experience";
-import { Intro } from "./components/Intro/Intro";
 import { Navbar } from "./components/Navbar/Navbar";
+import { Intro } from "./components/Intro/Intro";
+import { About } from "./components/About/About";
+import { Experience } from "./components/Experience/Experience";
 import { Projects } from "./components/Projects/Projects";
 import { Education } from "./components/Education/Education";
 import { Certificates } from "./components/Certificates/Certificates";
-import {Blogs} from "./components/Blogs/Blogs";
+import { Contact } from "./components/Contact/Contact";
 import { Footer } from "./components/Footer/Footer";
+import { BlogList } from "./components/Blogs/BlogList";
+import { BlogPost } from "./components/Blogs/BlogPost";
 import Chat from "./components/Chat/Chat";
 
 function App() {
@@ -26,25 +24,25 @@ function App() {
           path="/*"
           element={
             <div className={styles.App}>
-        Note: This website is in development. Many features are yet to come.Use desktop view for better expereince
-      <Navbar />
-      <Intro />
-      <About />
-      <Experience />
-      <Projects />
-      <Education />
-      <Certificates />
-      <Contact />
-      <Blogs/>
-      <Footer />
-      <Chat />
-    </div>
+              <p style={{ textAlign: "center", background: "#6c3de8", color: "white", padding: "8px", margin: 0, fontSize: "13px" }}>
+                Note: This website is in development. Many features are yet to come. Use desktop view for better experience.
+              </p>
+              <Navbar />
+              <Intro />
+              <About />
+              <Experience />
+              <Projects />
+              <Education />
+              <Certificates />
+              <Contact />
+              <Footer />
+              <Chat />
+            </div>
           }
-          />
-          </Routes>
-          </Router>
+        />
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
-
