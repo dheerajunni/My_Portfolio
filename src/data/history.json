@@ -1,35 +1,42 @@
 [
   {
-    "role": "Data Analyst",
+    "role": "Information Systems Application Developer",
     "organisation": "State of New Mexico",
-    "startDate": "August, 2023",
+    "startDate": "July, 2024",
     "endDate": "Present",
-    "experiences": ["At the State of New Mexico, I led data initiatives that transformed how the workers’ compensation division monitored and acted on critical insights. I built interactive Power BI dashboards that tracked claims processing, injury trends, and settlement timelines, giving leadership a real-time view into operations. To power these insights, I designed and maintained ETL pipelines in Azure Data Factory, integrating structured and semi-structured data from insurance, legal, and hospital systems, and built data marts in Azure SQL Database and Snowflake to support analytics at scale.Beyond building pipelines, I focused on data quality and governance. I wrote advanced SQL procedures for cleansing historical claims data, developed Python scripts for anomaly detection and validation, and standardized metrics across the agency to ensure consistency. My dashboards weren’t just static reports—they leveraged DAX for dynamic filtering and drill-through capabilities, making them highly interactive for different stakeholders.On the operational side, I implemented scheduled refreshes and alerting mechanisms to ensure data availability, and collaborated with IT to strengthen cloud security policies using Azure AD and AWS IAM. I also integrated Google Analytics data into Snowflake-powered dashboards, enabling the agency to track portal traffic and citizen engagement.Throughout this role, I worked closely with department users during UAT sessions, refined metrics based on feedback, and presented insights during monthly performance reviews using data storytelling techniques. I also mentored junior analysts, sharing best practices in Power BI and SQL optimization, helping to elevate the team’s overall analytics capability"],
+    "experiences": ["Independently manage and enhance five enterprise application platforms for a state regulatory agency, including a public-facing ASP.NET Core MVC application, SharePoint Online intranet, Drupal CMS, SQL Server databases, and reporting solutions. Lead the full software development lifecycle from requirements gathering and system design to development, testing, deployment, and production support. Develop secure, scalable .NET and SQL Server solutions, implement REST APIs and third-party integrations, optimize application performance, and deliver business intelligence reporting through SSRS and Power BI. Collaborate closely with stakeholders to translate business needs into technical solutions while ensuring compliance with security, accessibility, and state IT standards."],
     "imageSrc": "history/NM.png"
   },
   {
-    "role": "Data Analyst",
+    "role": " Application Developer",
+    "organisation": "Colorado State University",
+    "startDate": "August, 2022",
+    "endDate": "December 2023",
+    "experiences": ["Led end-to-end design and delivery of a .NET-based academic analytics platform using ASP.NET Core 6, Angular, and SQL Server to provide real-time enrollment and financial aid insights across 30,000+ student records. Developed secure REST APIs with Azure AD B2C authentication and role-based access controls, and built a normalized data model integrating four enterprise source systems with over 40 stored procedures powering both application and Power BI reporting layers. Designed and executed comprehensive testing strategies including UAT, regression, and integration testing across six university departments, achieving a zero-critical-defect production launch. Implemented SSIS-based ETL pipelines from Oracle PeopleSoft, reducing query latency by 35%, and established Azure DevOps CI/CD pipelines with automated testing and zero-downtime deployments. Delivered full documentation, training, and post-launch support, enabling complete operational handover to university IT teams."],
+    "imageSrc": "history/NM.png"
+  },
+  {
+    "role": "Application Developer",
     "organisation": " JBS USA",
-    "startDate": "Jan, 2023",
+    "startDate": "May, 2023",
     "endDate": "July, 2023",
-    "experiences": ["During my work in procurement and supply chain analytics, I built end-to-end data solutions that transformed raw, semi-structured documents into actionable insights. I designed and deployed Snowflake data models using star schemas and fact/dimension tables, enabling sub-second queries across millions of records. To support this, I engineered scalable ETL pipelines with AWS Glue, S3, and PySpark on EMR—automating ingestion of EDI documents (850, 855, 810), reconciling supplier performance data with Python scripts, and preprocessing massive purchase order datasets for Snowflake. I also integrated SAP data through AWS pipelines, resolving complex IDoc errors to ensure accurate procurement and invoice reconciliation.On the analytics side, I connected Snowflake to Power BI, creating interactive dashboards that allowed supply chain leaders to drill into delivery performance, purchase order fill rates, and spend metrics. To guarantee reliability, I implemented role-based access control, query optimization, and warehouse auto-scaling in Snowflake, while setting up automated monitoring with CloudWatch and Snowflake Tasks to minimize downtime. Beyond the technical delivery, I documented schemas, workflows, and lineage in Confluence for cross-team transparency, and regularly presented insights to leadership—helping shape procurement strategies with data-driven recommendations."],
+    "experiences": ["Developed a full-stack vendor and supplier management platform for JBS USA using ASP.NET MVC, C#, AngularJS, and SQL Server, supporting North American procurement operations. Built automated EDI processing solutions, including transaction validation, routing, and file ingestion services that eliminated manual workflows and significantly improved data accuracy. Contributed to SQL Server database migration efforts, integration support, and system troubleshooting while producing comprehensive technical documentation to ensure long-term maintainability and successful knowledge transfer to internal teams."],
     "imageSrc": "history/JBS.png"
   },
   {
-    "role": "Data Analyst",
-    "organisation": "Accenture,Client:Cisco",
-    "startDate": "July, 2021",
+    "role": "Senior Application Developer",
+    "organisation": "Accenture",
+    "startDate": "June, 2021",
     "endDate": "Aug, 2022",
-    "experiences": ["At Cisco, I led the design and deployment of large-scale healthcare analytics pipelines that transformed raw multi-source vendor data into actionable insights. Using Apache Spark and PySpark, I processed over 50 GB of data daily, building dynamic ETL jobs that handled CSV, JSON, and XML formats while ensuring HIPAA compliance for sensitive patient records. To drive predictive insights, I implemented SparkML models that forecasted prescription drop-off rates, helping improve operational efficiency and patient outcomes. I developed interactive Power BI dashboards connected to Azure SQL data marts, enabling clinical and financial teams to track KPIs across multiple dimensions with ease.Behind the scenes, I engineered pipelines with Azure Data Factory, Airflow DAGs, and Azure DevOps CI/CD, ensuring automated, secure, and reliable data delivery. By optimizing Spark execution plans and caching strategies, I boosted performance by 70%, while also enhancing large-scale transformations with NumPy for high-performance numerical operations. I reinforced reliability through Azure Monitor and custom logging, added recovery checkpoints and SLA alerts, and documented every workflow with ETL diagrams and SOPs for full reproducibility. My work not only scaled Cisco’s healthcare data systems but also empowered leadership with dashboards and reviews that pinpointed bottlenecks and guided strategic improvements."],
+    "experiences": ["Led the design, modernization, and optimization of enterprise .NET applications and data platforms, including large-scale ETL migrations, cloud modernization, API development, and database performance tuning. Migrated over 15 million records from Oracle to Azure SQL through SSIS pipelines, modernized legacy ASP.NET applications to ASP.NET Core, and developed secure REST APIs consumed by multiple downstream systems. Improved database performance by 40%, automated critical operational workflows, and mentored development teams on secure coding and best practices while producing comprehensive technical documentation to support long-term system maintainability."],
     "imageSrc": "history/Accenture.png"
   },
   {
-    "role": "Data Analyst/Engineer",
+    "role": "Associate Application Developer",
     "organisation": "Accenture",
     "startDate": "May, 2019",
     "endDate": "June, 2021",
-    
-    "experiences": ["At Accenture, I built and optimized large-scale supply chain data solutions by designing pipelines with SSIS, SQL Server, and the Hadoop ecosystem, automating ETL workflows from SAP, Salesforce, and SQL sources to boost efficiency by 25%. I leveraged Python, PySpark, and Spark SQL for cleansing, anomaly detection, and processing millions of records, while also developing R-based forecasting models for demand planning and risk prediction. To enable real-time insights, I integrated Power BI dashboards with dimensional models and marts, applied row-level security, and enforced governance frameworks. By automating recurring reporting with Power Automate and Python, and fine-tuning warehouse performance through query optimization and indexing, I reduced manual effort by 40% and delivered scalable, secure, and high-performance analytics that empowered data-driven supply chain decisions."],
+    "experiences": ["Developed and maintained responsive multi-tier web applications using ASP.NET MVC, ReactJS, JavaScript, and SQL-based backend services for an enterprise performance management platform serving over 500 users. Built secure REST APIs with Entity Framework Core and JWT authentication, created reusable React components that accelerated feature delivery, and resolved complex production issues using Azure Application Insights. Collaborated with cross-functional teams on sprint planning, code reviews, architecture discussions, and mentoring junior developers while promoting secure, scalable, and maintainable software development practices."],
     "imageSrc": "history/Accenture.png"
   }
 ]
