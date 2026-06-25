@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./Intro.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -7,16 +6,13 @@ export const Intro = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi,there! Welcome to my Portfolio</h1>
+        <h1 className={styles.title}>Hi, I'm Dheeraj Pulijala</h1>
         <p className={styles.description}>
-        I'm a data-driven professional with 6+ years of experience in Data Analysis, Business Intelligence, and Advanced Analytics, delivering impactful solutions across diverse industries including healthcare, supply chain, and finance.
-
-My strength lies in designing and optimizing end-to-end data pipelines—from ETL development using tools like Azure Data Factory, SSIS, Apache Spark, and Airflow, to building interactive dashboards with Power BI and Tableau that empower decision-makers with real-time insights.
-I bring deep expertise in SQL across Snowflake, SQL Server, PostgreSQL, and MySQL, and thrive on tuning complex queries and building efficient data models and marts. I’ve also developed predictive ML models using Python libraries like Pandas, NumPy, Scikit-learn, and TensorFlow, supporting use cases such as churn prediction, anomaly detection, and forecasting.
-Cloud-native and big data savvy, I have hands-on experience with AWS (Redshift, S3), Azure (Databricks, Data Lake), and GCP (BigQuery, Dataflow)—ensuring secure, scalable data solutions. I’ve deployed containerized ML pipelines using Docker and Kubernetes, integrated REST APIs, and maintained high data quality standards through QA, data validation, and governance practices.
-I love collaborating with cross-functional teams using Agile/Scrum methodologies and take pride in turning complex data challenges into simple, business-ready solutions. Whether it’s CI/CD with Git and Azure DevOps, versioning Power BI assets, or automating analytics workflows—I’m always looking for ways to make data more accessible, reliable, and actionable.
-
-💡 Let’s connect to discuss opportunities in Data Analysis , cloud technologies, and business intelligence! 🚀
+          Application Developer with 6+ years of experience building and maintaining production .NET systems for state government and enterprise environments. I specialize in ASP.NET Core, C#, SQL Server, and Azure — and I integrate AI capabilities into real applications using OpenAI and serverless architectures.
+          <br /><br />
+          Currently serving as the primary developer for five production web systems at the State of New Mexico, independently owning the full software lifecycle from requirements through deployment. I bring the same ownership mindset to every system I build — whether it's a public-facing MVC application, a REST API, or an AI-powered portfolio assistant like the one on this site.
+          <br /><br />
+          Open to Application Developer and Full Stack .NET roles in both state government and private sector. Open to relocation.
         </p>
         <a href="#contact" className={styles.contactBtn}>
           Contact Me
@@ -32,4 +28,3 @@ I love collaborating with cross-functional teams using Agile/Scrum methodologies
     </section>
   );
 };
-
