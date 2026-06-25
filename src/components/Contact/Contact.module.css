@@ -1,0 +1,153 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding: 58px 10%;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contactHeading {
+  text-align: center;
+  font-size: 35px; /* Adjust the font size as needed */
+  font-weight: 700;
+  margin-bottom: 20px; /* Adds space below the heading */
+  color: var(--color-text); /* Ensure it matches your design */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.fieldGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+textarea {
+  padding: 15px;
+  font-size: 20px;
+  border: 2px solid var(--color-text);
+  border-radius: 10px;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 10px var(--color-primary);
+}
+
+textarea {
+  resize: none;
+  height: 150px;
+}
+
+.submitButton {
+  width: 200px; /* Adjust width for desired size */
+  height: 50px; /* Adjust height for desired size */
+  border-radius: 25px; /* Makes the button a rounded rectangle */
+  margin: 0 auto; /* Center-align the button */
+  padding: 10px;
+  font-size: 20px;
+  color: var(--color-text);
+  background-color: var(--color-primary);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submitButton:hover {
+  background-color: var(--color-primary-hover);
+  box-shadow: 0 0 10px var(--color-primary);
+}
+
+.separator {
+  width: 2px;
+  background-color: var(--color-text);
+  height: 100%;
+}
+
+.linksContainer {
+  flex: 1;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 26px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.link img {
+  width: 30px;
+  height: 30px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    padding: 40px 5%;
+  }
+
+  .separator {
+    display: none; /* Hide the vertical line on smaller screens */
+  }
+
+  .formContainer, .linksContainer {
+    max-width: 100%;
+  }
+}

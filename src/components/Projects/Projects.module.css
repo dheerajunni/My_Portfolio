@@ -1,0 +1,61 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative; /* Position relative for arrow positioning */
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 37px; /* Space between title and projects */
+}
+
+.projects {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping to the next line */
+  gap: 15px; /* Spacing between cards */
+  overflow-x: auto; /* Allows horizontal scrolling if necessary */
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.2); /* More transparent background */
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%; /* Circular shape */
+  transition: background-color 0.3s ease;
+  z-index: 2; /* Ensure it's above content but not obstructive */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* Adjust width */
+  height: 40px; /* Adjust height */
+}
+
+.arrow:hover {
+  background-color: rgba(0, 0, 0, 0.5); /* Slightly more visible on hover */
+}
+
+.arrow-left {
+  left: 10px; /* Adjust spacing from the left edge */
+}
+
+.arrow-right {
+  right: 10px; /* Adjust spacing from the right edge */
+}
+
+.arrow-icon {
+  font-size: 18px; /* Adjust icon size */
+}
