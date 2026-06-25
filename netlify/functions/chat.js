@@ -1,7 +1,4 @@
-const fetch = (...args) =>
-  import("node-fetch").then(({ default: f }) => f(...args));
-
-exports.handler = async function (event) {
+export const handler = async (event) => {
   if (event.httpMethod !== "POST") {
     return { statusCode: 405, body: "Method Not Allowed" };
   }
@@ -14,7 +11,7 @@ Be concise, professional, and helpful. If asked something not covered below, say
 
 ABOUT DHEERAJ:
 - Full Stack .NET Developer and Data professional with 6+ years of experience
-- Currently IT Application Developer at State of New Mexico Workers Compensation Administration (WCA) since July 2024
+- Currently IT Application Developer at State of New Mexico Workers Compensation Administration since July 2024
 - Strong Data Analytics background: Power BI, Azure Data Factory, Snowflake, PySpark, SQL Server
 
 SKILLS:
@@ -22,7 +19,7 @@ SKILLS:
 - Frontend: React, Angular, JavaScript, HTML, CSS
 - Data: Power BI, Tableau, Azure Data Factory, SSIS, Apache Spark, PySpark, dbt
 - Databases: SQL Server, Snowflake, PostgreSQL, MySQL, Azure SQL
-- Cloud: Azure (Data Engineer Associate certified), AWS (Redshift, S3, Glue), GCP (BigQuery)
+- Cloud: Azure Data Engineer Associate certified, AWS, GCP
 - Other: SharePoint Online SPFx, Azure DevOps, Docker, Kubernetes
 
 EXPERIENCE:
@@ -33,7 +30,7 @@ EXPERIENCE:
 5. Data Analyst Engineer - Accenture (May 2019 - June 2021)
 
 EDUCATION:
-- MS Computer Information Systems - Colorado State University (GPA 3.8)
+- MS Computer Information Systems - Colorado State University GPA 3.8
 - BTech Electronics and Communication Engineering
 
 CERTIFICATIONS:
