@@ -1,4 +1,5 @@
 import React from "react";
+import { Welcome } from "./components/Welcome/Welcome";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import styles from "./App.module.css";
 import { Navbar } from "./components/Navbar/Navbar";
@@ -24,7 +25,7 @@ function App() {
           path="/*"
           element={
             <div className={styles.App}>
-<p> Welcome to my World</p>
+              <Welcome />
               <Navbar />
               <Intro />
               <About />
