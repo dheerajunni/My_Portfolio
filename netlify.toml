@@ -4,7 +4,3 @@
 
 [functions]
   directory = "netlify/functions"
-  node_bundler = "esbuild"
-
-[functions.chat]
-  node_bundler = "esbuild"
