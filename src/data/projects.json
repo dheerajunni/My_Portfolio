@@ -1,42 +1,42 @@
 [
+   {
+  "title": "AI-Powered Portfolio Website",
+  "imageSrc": "projects/project.png",
+  "description": "Designed and developed a fully responsive personal portfolio website from scratch using React and Vite, featuring modular component architecture, CSS modules for scoped styling, and a custom JSON-driven data layer that makes content updates seamless. Integrated an AI-powered chat assistant using OpenAI GPT-4o-mini routed through a Netlify serverless function — allowing visitors to interactively query my experience, skills, and projects in real time. Deployed on Netlify with continuous deployment from GitHub.",
+  "skills": ["React", "Vite", "JavaScript", "CSS Modules", "HTML5", "OpenAI API", "Netlify Functions", "Netlify CI/CD", "GitHub"],
+  "demo": "https://dheerajpulijala.netlify.app",
+  "source": "https://github.com/dheerajunni/My_Portfolio"
+},
+   {
+  "title": "AI Portfolio Assistant",
+  "imageSrc": "projects/project.png",
+  "description": "Built and deployed an AI-powered chat assistant directly into this portfolio site. Recruiters and hiring managers can ask natural language questions about my experience, skills, and projects and get instant accurate answers. Built with React, OpenAI GPT-4o-mini, and a Netlify serverless function that proxies API calls securely — keeping the API key out of the browser. Fully live in production.",
+  "skills": ["React", "OpenAI API", "Netlify Functions", "JavaScript", "Node.js", "REST API", "Prompt Engineering"],
+  "demo": "https://dheerajpulijala.netlify.app",
+  "source": "https://github.com/dheerajunni/My_Portfolio"
+},
   {
-    "title": "Real-time Anomaly Detection System for Financial Transactions",
-    "imageSrc": "projects/project.png",
-    "description": "Led the creation of an anomaly detection system for financial transactions, utilizing Azure Databricks, ADLS, PySpark to process the data, resulting in enhanced fraud detection accuracy.",
-    "skills": ["Azure Databricks", "PySpark", "PowerBI","Data Analysis"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
+  "title": "Instacart Analytics — dbt & PostgreSQL",
+  "imageSrc": "projects/project.png",
+  "description": "End-to-end analytics engineering project built on the public Instacart dataset — 3.4M orders, 206K users, 50K products. Designed a production-grade four-layer dbt model architecture (Staging, Intermediate, Core Marts, Marketing Marts) on PostgreSQL, standardizing KPIs like reorder rate, basket size, and order frequency segments. Enforced data quality with 60+ schema tests and custom singular tests that caught real data issues including duplicate order IDs and null handling for first-order records. Replicated real analytics engineering patterns used in delivery marketplace data teams.",
+  "skills": ["dbt Cloud", "PostgreSQL", "SQL", "Analytics Engineering", "Data Modeling", "dbt_utils", "Data Quality Testing", "Star Schema"],
+  "demo": "https://github.com/dheerajunni/instacart-analytics-dbt",
+  "source": "https://github.com/dheerajunni/instacart-analytics-dbt"
+},
   {
-    "title": "Data Modeling and Management for Industrial Manufacturer",
-    "imageSrc": "projects/project.png",
-    "description": "Developed a relational database using MySQL & Microsoft SQL Server for a Beer manufacturer, implementing Data Modelling techniques like Star schema, Snowflake Schema and query optimization techniques that improved the performance by 30%",
-    "skills": ["SSIS", "SQL Queries", "Snowflake", "Data Modelling","ERD"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Sales Data Analysis and Reporting",
-    "imageSrc": "projects/project.png",
-    "description": "Conducted analysis on customer sales behavior data to pinpoint trends and pull out opportunities for a retail client, leveraging Power BI to craft interactive dashboards that offer stakeholders real-time insights into sales performance, while employing DAX expressions for data manipulation and cleaning",
-    "skills": ["PowerBI", "DAX", "Data Analysis","Data Cleaning"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Personal Portfolio Website",
-    "imageSrc": "projects/project.png",
-    "description": "Developed a fully blown portfolio dynamic and interactive website which allows recruiters,employers,stakeholders to view and interact with my experiences to know me better",
-    "skills": ["Reactjs", "Javascript", "HTML & CSS","JSON","Visual Studio Code","UI/UX"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project",
-    "imageSrc": "projects/project.png",
-    "description": "Developed a fully blown portfolio dynamic and interactive website which allows recruiters,employers,stakeholders to view and interact with my experiences to know me better",
-    "skills": ["Reactjs", "Javascript", "HTML & CSS","JSON","Visual Studio Code","UI/UX"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  }
+  "title": "Python Data Quality Validation Framework",
+  "imageSrc": "projects/project.png",
+  "description": "Built a lightweight, modular data quality framework in pure Python and Pandas — inspired by Great Expectations but with zero heavy dependencies. Designed six reusable Expectation classes covering null rates, uniqueness, accepted values, range checks, referential integrity, and row count reconciliation. Applied against the Instacart dataset (3.4M orders, 50K products) as a pipeline pre-flight gate, catching real data issues including 0.03% duplicate order IDs and out-of-range cart position values before downstream mart writes. Outputs structured JSON validation reports with pass/fail summaries and failure samples. 18 unit tests at 100% pass rate.",
+  "skills": ["Python", "Pandas", "pytest", "Data Quality", "ETL Pipeline", "JSON", "Analytics Engineering", "NumPy"],
+  "demo": "https://github.com/dheerajunni/data-quality-framework",
+  "source": "https://github.com/dheerajunni/data-quality-framework"
+},
+{
+  "title": "Instacart Medallion Lakehouse — Databricks & PySpark",
+  "imageSrc": "projects/project.png",
+  "description": "Built a production-pattern Bronze/Silver/Gold medallion pipeline on Databricks Community Edition using PySpark and Delta Lake, applied to the Instacart dataset at scale — 3.4M orders, 33M order-product line items, 206K users, 50K products. Implemented schema enforcement at ingestion, window-function deduplication, referential integrity checks via Spark left-anti joins, and row count reconciliation gates that halt the pipeline automatically on data drift. Gold layer delivers analytics-ready fact and dimension tables including user behavior segments, product popularity tiers, and department KPI aggregations. CI runs pytest on every push via GitHub Actions.",
+  "skills": ["PySpark", "Databricks", "Delta Lake", "Python", "Spark SQL", "Data Engineering", "Medallion Architecture", "pytest", "GitHub Actions"],
+  "demo": "https://github.com/dheerajunni/instacart-medallion-lakehouse",
+  "source": "https://github.com/dheerajunni/instacart-medallion-lakehouse"
+}
 ]
