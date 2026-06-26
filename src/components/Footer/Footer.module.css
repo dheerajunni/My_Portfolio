@@ -30,29 +30,28 @@
 }
 
 .goToTop {
-  position: fixed; /* Fixed positioning to stay in the same place on scroll */
-  bottom: 20px; /* Adjust the bottom space from the edge */
-  right: 20px; /* Adjust the right space from the edge */
-  background: rgba(0, 0, 0, 0.2); /* Transparent background */
-  border: none;
+  position: fixed;
+  bottom: 144px;
+  right: 20px;
+  background: var(--color-secondary, #19376d);
   color: white;
-  font-size: 16px; /* Adjust font size */
-  width: 150px; /* Adjust width */
-  height: 50px; /* Adjust height */
-  border-radius: 25px; /* Rounded corners */
+  border: none;
+  border-radius: 999px;
+  padding: 8px 16px;
+  cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  z-index: 1000; /* Ensure it's on top of other content */
+  gap: 6px;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  z-index: 998;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  transition: transform 0.2s;
 }
 
 .goToTop:hover {
-  background-color: rgba(0, 0, 0, 0.5); /* Slightly more visible on hover */
+  transform: translateY(-2px);
 }
-
 .arrow {
   font-size: 24px; /* Adjust size of the arrow */
 }

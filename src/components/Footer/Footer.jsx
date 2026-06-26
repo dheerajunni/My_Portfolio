@@ -28,7 +28,7 @@ export const Footer = () => {
           <p>&copy; 2024 Dheeraj Pulijala. All rights reserved.</p>
         </div>
       </div>
-      <button className={styles.goToTop} onClick={scrollToTop} aria-label="Go to top">
+      <button align : left className={styles.goToTop} onClick={scrollToTop} aria-label="Go to top">
         <span className={styles.arrow}>↑</span>
         <span className={styles.label}>Go to Top</span>
       </button>

@@ -23,22 +23,22 @@ const ThemeToggle = () => {
       onClick={toggleTheme}
       aria-label="Toggle theme"
       style={{
-        position: "fixed",
-        bottom: "88px",
-        right: "26px",
-        width: "44px",
-        height: "44px",
-        borderRadius: "50%",
-        background: "var(--toggle-bg)",
-        border: "1px solid var(--color-border)",
-        fontSize: "20px",
-        cursor: "pointer",
-        zIndex: 999,
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        boxShadow: "0 2px 8px rgba(0,0,0,0.3)",
-      }}
+  position: "fixed",
+  bottom: "96px",
+  right: "20px",
+  width: "44px",
+  height: "44px",
+  borderRadius: "50%",
+  background: "var(--toggle-bg)",
+  border: "1px solid var(--color-border)",
+  fontSize: "20px",
+  cursor: "pointer",
+  zIndex: 999,
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  boxShadow: "0 2px 8px rgba(0,0,0,0.3)",
+}}
     >
       {theme === "dark" ? "☀️" : "🌙"}
     </button>

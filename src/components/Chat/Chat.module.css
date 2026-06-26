@@ -1,7 +1,7 @@
 .wrapper {
   position: fixed;
   bottom: 24px;
-  right: 24px;
+  right: 20px;
   z-index: 1000;
   font-family: Arial, sans-serif;
 }
