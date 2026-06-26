@@ -4,10 +4,16 @@ import styles from "./Welcome.module.css";
 export const Welcome = () => {
   const [visible, setVisible] = useState(false);
 
-  useEffect(() => {
-    const timer = setTimeout(() => setVisible(true), 500);
+ useEffect(() => {
+  const seen = sessionStorage.getItem("welcomeSeen");
+  if (!seen) {
+    const timer = setTimeout(() => {
+      setVisible(true);
+      sessionStorage.setItem("welcomeSeen", "true");
+    }, 500);
     return () => clearTimeout(timer);
-  }, []);
+  }
+}, []);
 
   if (!visible) return null;
 
