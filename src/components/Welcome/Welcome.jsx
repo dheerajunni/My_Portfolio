@@ -19,11 +19,10 @@ export const Welcome = () => {
           Hi, I'm <span className={styles.highlight}>Dheeraj</span> 👋
         </h1>
         <p className={styles.tagline}>
-          I build production .NET applications and integrate AI into enterprise systems — currently serving as the primary developer for five production web systems at the State of New Mexico.
+         I LOVE YOU 
         </p>
         <div className={styles.divider} />
         <div className={styles.cta}>
-          <span className={styles.ctaIcon}>💬</span>
           <p className={styles.ctaText}>
             Try the <strong>AI Assistant</strong> in the bottom right corner — ask it anything about my experience, skills, or projects.
           </p>
