@@ -15,8 +15,10 @@ import { BlogList } from "./components/Blogs/BlogList";
 import { BlogPost } from "./components/Blogs/BlogPost";
 import Chat from "./components/Chat/Chat";
 import { ThemeProvider } from "./context/ThemeContext";
+import { useTheme } from "./context/ThemeContext";
 
 function App() {
+  const { theme, toggleTheme } = useTheme();
   return (
     <ThemeProvider>
     <Router>
@@ -38,6 +40,29 @@ function App() {
               <Contact />
               <Footer />
               <Chat />
+              <button
+  onClick={toggleTheme}
+  aria-label="Toggle theme"
+  style={{
+    position: "fixed",
+    bottom: "88px",
+    right: "26px",
+    width: "44px",
+    height: "44px",
+    borderRadius: "50%",
+    background: "var(--toggle-bg)",
+    border: "1px solid var(--color-border)",
+    fontSize: "20px",
+    cursor: "pointer",
+    zIndex: 999,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    boxShadow: "0 2px 8px rgba(0,0,0,0.3)",
+  }}
+>
+  {theme === "dark" ? "☀️" : "🌙"}
+</button>
             </div>
           }
         />
