@@ -162,6 +162,28 @@
     transform: translateY(0);
     opacity: 1;
   }
+  .themeToggle {
+  position: fixed;
+  bottom: 88px;
+  right: 26px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--toggle-bg);
+  border: 1px solid var(--color-border);
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s, background 0.3s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.themeToggle:hover {
+  transform: scale(1.1);
+}
 
   .menuItems {
     display: flex;

@@ -14,9 +14,11 @@ import { Footer } from "./components/Footer/Footer";
 import { BlogList } from "./components/Blogs/BlogList";
 import { BlogPost } from "./components/Blogs/BlogPost";
 import Chat from "./components/Chat/Chat";
+import { ThemeProvider } from "./context/ThemeContext";
 
 function App() {
   return (
+    <ThemeProvider>
     <Router>
       <Routes>
         <Route path="/blogs" element={<BlogList />} />
@@ -41,6 +43,7 @@ function App() {
         />
       </Routes>
     </Router>
+    </ThemeProvider>
   );
 }
 

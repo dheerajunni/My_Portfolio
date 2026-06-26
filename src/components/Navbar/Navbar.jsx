@@ -1,8 +1,10 @@
 import React, { useState, useRef, useEffect } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import { useTheme } from "../../context/ThemeContext";
 
 export const Navbar = () => {
+  const { theme, toggleTheme } = useTheme();
   const [menuOpen, setMenuOpen] = useState(false);
   const [popupOpen, setPopupOpen] = useState(false);
   const popupRef = useRef(null);
@@ -105,6 +107,13 @@ export const Navbar = () => {
           </div>
         </>
       )}
+      <button
+  className={styles.themeToggle}
+  onClick={toggleTheme}
+  aria-label="Toggle theme"
+>
+  {theme === "dark" ? "☀️" : "🌙"}
+</button>
     </nav>
   );
 };
